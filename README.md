@@ -1,6 +1,6 @@
-# Human Capital Coding Exercises (2025-26)
+# Coding Exercises (2025-26)
 
-This repository contains my solutions to the Human Capital Coding Exercises for 2025–26.
+This repository contains my solutions to the Coding Exercises for 2025–26.
 The implementation is in TypeScript, following OOP principles, SOLID design principles, and using multiple design patterns.
 
 The goal of this project is not just to “make it work” but to show good software engineering practices:
@@ -21,7 +21,6 @@ npm install
 
 3. Install TypeScript & ts-node Globally (if not already installed)
 npm install -g typescript ts-node
-
 
 
 # Running the Exercises
