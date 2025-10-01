@@ -22,7 +22,6 @@ class PaymentContext {
     }
 }
 
-// Demo
 export function runStrategyDemo() {
     const cc = new PaymentContext(new CreditCardPayment());
     cc.execute(100);
