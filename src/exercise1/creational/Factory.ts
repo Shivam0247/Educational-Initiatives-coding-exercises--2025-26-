@@ -22,7 +22,6 @@ class ShapeFactory {
     }
 }
 
-// Demo
 export function runFactoryDemo() {
     const circle = ShapeFactory.createShape("circle");
     circle.draw();

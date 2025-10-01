@@ -20,11 +20,10 @@ class ConfigManager {
     }
 }
 
-// Demo
 export function runSingletonDemo() {
     const config1 = ConfigManager.getInstance();
     config1.set("appName", "HC Exercises");
 
     const config2 = ConfigManager.getInstance();
-    console.log(config2.get("appName")); // same instance
+    console.log(config2.get("appName"));
 }

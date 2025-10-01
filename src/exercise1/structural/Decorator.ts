@@ -26,7 +26,7 @@ class EncryptionDecorator implements Writer {
     }
 }
 
-// Demo
+
 export function runDecoratorDemo() {
     const writer: Writer = new LoggingDecorator(
         new EncryptionDecorator(new FileWriter())

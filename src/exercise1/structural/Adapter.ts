@@ -13,11 +13,11 @@ class Adapter implements NewAPI {
 
     getDataJSON(): object {
         const xml = this.oldAPI.getDataXML();
-        return { converted: xml }; // fake conversion
+        return { converted: xml };
     }
 }
 
-// Demo
+
 export function runAdapterDemo() {
     const oldApi = new OldAPI();
     const adapter = new Adapter(oldApi);

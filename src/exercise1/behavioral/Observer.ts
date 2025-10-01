@@ -24,7 +24,7 @@ class ChatRoom {
     }
 }
 
-// Demo
+
 export function runObserverDemo() {
     const chat = new ChatRoom();
     const alice = new User("Alice");
