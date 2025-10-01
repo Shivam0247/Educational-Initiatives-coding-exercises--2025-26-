@@ -13,20 +13,20 @@ The goal of this project is not just to “make it work” but to show good soft
 
 # Installation & Setup 
 
-1. Clone the Repository
+1. Clone the Repository :
 https://github.com/Shivam0247/Educational-Initiatives-coding-exercises--2025-26-.git
 
-2. Install Dependencies
+2. Install Dependencies :
 npm install
 
-3. Install TypeScript & ts-node Globally (if not already installed)
+3. Install TypeScript & ts-node Globally (if not already installed) :
 npm install -g typescript ts-node
 
 
 # Running the Exercises
 
-1. Exercises 1:
+1. Exercises 1 :
 npx ts-node src/exercise1/main.ts
 
-2. Exercises 2:
+2. Exercises 2 :
 npx ts-node src/exercise2/astronaut-scheduler/index.ts
