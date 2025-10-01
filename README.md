@@ -30,4 +30,4 @@ npm install -g typescript ts-node
 npx ts-node src/exercise1/main.ts
 
 2. Exercises 2:
-npx ts-node src/exercise2/astronaut-scheduler.ts
+npx ts-node src/exercise2/astronaut-scheduler/index.ts
